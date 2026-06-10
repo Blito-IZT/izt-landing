@@ -188,3 +188,9 @@ footer { border-top: 1px solid var(--line); padding: 44px 0; }
 .legal ul { padding-left: 22px; }
 .legal a { color: var(--turquoise-deep); text-decoration: underline; text-underline-offset: 3px; }
 .ph { background: rgba(228,201,160,.35); border-bottom: 1px dashed var(--sand); padding: 0 4px; border-radius: 3px; font-style: italic; }
+
+/* Legal tables */
+.legal table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 15px; }
+.legal th { background: var(--paper-2); font-weight: 600; text-align: left; padding: 10px 14px; border: 1px solid var(--line); color: var(--ink); }
+.legal td { padding: 10px 14px; border: 1px solid var(--line); color: var(--ink-soft); vertical-align: top; }
+.legal tr:nth-child(even) td { background: rgba(246,243,236,.5); }
