@@ -132,7 +132,7 @@ section { position: relative; }
 /* products */
 .product-intro { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; align-items: end; margin-bottom: 52px; }
 .product-intro .section-head { margin-bottom: 0; }
-.product-intro-cta { display: flex; justify-content: flex-end; }
+.product-intro-cta { display: flex; justify-content: center; }
 .products { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; }
 .product {
   position: relative; background: var(--white); border: 1px solid var(--line);
